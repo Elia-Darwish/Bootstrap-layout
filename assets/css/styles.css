@@ -1,0 +1,141 @@
+
+body {
+    color: #3a526d;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+    color: #5d738b;
+}
+
+img {
+    width: 100% !important;
+}
+
+.svg {
+    width: 10rem;
+}
+
+.navbar {
+    font-size: .9rem;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #526A85;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #526A85;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #7091b8;
+}
+
+.feather-search {
+    width: 1.5rem;
+}
+
+.feather-menu {
+    width: 3rem;
+}
+
+.search {
+    width: 150px !important;
+    border: none;
+}
+
+.search:focus {
+    box-shadow: none;
+}
+
+.hero {
+    background: #526A85 url("../img/bg.jpg");
+    height: 86vh;
+    width: 100%;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+
+.btn-green {
+    background-color: #01BB9D;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.feather-heart, .feather-sun, .feather-star, .menu-icon {
+    width: 4rem;
+}
+
+
+.portfolio {
+    background-color: #eee;
+}
+
+.portfolio-title {
+    font-weight: 800;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.bg-footer {
+    background-color: #2f4052;
+}
+
+footer h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+footer p {
+    font-size: .8rem;
+    color: #fff;
+    opacity: .8;
+}
+
+.feather-arrow-right, .feather-map-pin, .feather-smartphone, .feather-mail {
+    width: 1rem;
+}
+
+.contact-info {
+    font-size: .8rem;
+    display: block;
+    opacity: .6;
+}
+
+footer .sign-up-form {
+    background-color: #4c5b70;
+    color: #fff;
+}
+
+footer .sign-up {
+    background-color: transparent;
+    border: none;
+}
+
+footer .sign-up:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+footer .sign-up-sub {
+    position: absolute;
+    right: 1.1rem;
+}
